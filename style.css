@@ -1,0 +1,176 @@
+body{
+	background-color: black;
+	background-image: url("img/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover; 
+  background-position: top;
+}
+#darken{
+  position: fixed; /* Sit on top of the page content */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+	background-color: rgba(2, 2, 2, 0.6);
+	display: none;
+	z-index: 0;
+}
+
+.container {
+  padding-top: 20%;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  -webkit-justify-content: center;
+  /* Safari */
+  justify-content: center;
+	z-index: 3;
+}
+
+.item {
+  padding: 10px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+	cursor: pointer;
+}
+
+#input{
+	display: none;
+}
+#BRTXT{
+	display: none;
+	color: grey;
+}
+#ESTXT{
+	display: none;
+	color: grey;
+}
+#JPTXT{
+	display: none;
+	color: grey;
+}
+#RUTXT{
+	color: grey;
+	display: none;
+}
+#USTXT{
+	color: grey;
+	display: none;
+}
+.QEA {
+    width: 93%;
+    max-width: 600px;
+    z-index: 2;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+
+
+.QEA{
+	display: none;
+	width: 80%;
+	margin: 0 auto;
+}
+.pergunta input[type="email"]{
+    width: 100%;
+    height: 66px;
+    margin-top: 10px;
+    border: 0;
+		border-bottom: 1px solid;
+    background: black;
+    color: white;
+    font-size: 22px;
+    padding-left: 10px;
+
+}
+.pergunta input[type="text"]{
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+		border: 0;
+		border-bottom: 1px solid;
+    background: black;
+    color: white;
+    font-size: 22px;
+		border-color: black black white;
+    padding-left: 10px;
+
+}
+.pergunta input[type="submit"]{
+    width: 102%;
+    height: 66px;
+    margin-top: 10px;
+    font-size: 30px;
+    color: black;
+    background: white;
+    cursor: pointer;
+    border: 0;
+}
+.pergunta input[type="submit"]:hover{
+    background: #126058;
+
+}
+header{
+	position: static;
+	text-align: right;
+	
+}
+header a{
+	padding-right: 10%;
+	color: white;
+}
+footer{
+		text-align: center;
+    max-width: 600px;
+    z-index: 2;
+    position: absolute;
+    left: 50%;
+    top: 95%;
+    transform:translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);	
+}
+footer p{
+	color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    display:none;
+}
+/* Código para fazer efeito descolorir*/
+
+.img-hover-zoom {
+  height: 300px; /* Modify this according to your need */
+  overflow: hidden; /* Removing this will break the effects */
+}
+
+/* Colorize-zoom Container */
+.img-hover-zoom--colorize img {
+  transition: transform .5s, filter 1.5s ease-in-out;
+  filter: grayscale(100%);
+}
+
+/* The Transformation */
+.img-hover-zoom--colorize:hover img {
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 950px){
+  .container {
+		width: 100% !important;
+		padding-top: 50%;
+	}
+	.pergunta input[type="text"]{
+    height: 100px;
+
+}
+	
+    
+}
