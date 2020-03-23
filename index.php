@@ -3,6 +3,18 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta property="og:title" content="Exron" />
+    
+    <meta property="og:description" content="Dices" />
+    
+    <meta property="og:url" content="https://exron.org" />
+   
+    <meta property="og:image" content="https://www.exron.org/img/background.jpg" />
+  
+      
+      
+      
+      
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="dist/sweetalert.min.js"></script>
     <link rel="stylesheet" type="text/css" href="dist/sweetalert.css">
@@ -13,14 +25,13 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-
-
 		<header >
-      <a class="link" href="https://EXRON.guifgr.repl.co">∑XRON</a>
+      <a class="link" href="/">∑XRON</a>
     <header>
 
 		<div id="darken">
 		</div><!--darken-->
+		
 
 		<div class="container">
 				<div class="img-hover-zoom--colorize item" id="RU">

@@ -10,7 +10,7 @@ if (isset($_POST['submit'])) {
     
 
     mail($mailTo, $subject, $txt, $headers);
-    header("Location: index.php?send=1");
+    header("Location: https://www.exron.org/?send=1");
     
     }
 ?>
