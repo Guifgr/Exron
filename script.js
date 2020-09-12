@@ -2,7 +2,7 @@ window.onload = function(){
 var url      = window.location.href; 
 console.log(url);
 
-    if(url == "https://www.exron.org/?send=1"){
+    if(url == "http://exron.xyz/?send=1"){
         opentheSwal();
         var audio = new Audio('dice.mp3');
         audio.play();

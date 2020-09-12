@@ -1,9 +1,9 @@
 body{
-	background-color: black;
-	background-image: url("img/background.jpg");
+	background-color: #050505;
+	background-image: url("img/background.svg");
 	background-repeat: no-repeat;
-	background-size: cover; 
   background-position: top;
+  background-size: 50%;
 }
 #darken{
   position: fixed; /* Sit on top of the page content */
@@ -141,7 +141,7 @@ footer{
 footer p{
 	color: white;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    display:none;
+    display:block;
 }
 /* Código para fazer efeito descolorir*/
 
@@ -162,6 +162,8 @@ footer p{
   transform: scale(1.1);
 }
 
+
+
 @media screen and (max-width: 950px){
   .container {
 		width: 100% !important;
@@ -171,6 +173,7 @@ footer p{
     height: 100px;
 
 }
-	
-    
+	   
 }
+
+
