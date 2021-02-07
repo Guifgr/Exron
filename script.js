@@ -63,14 +63,14 @@ $("#US").click(function(){
 });
 
 function opentheSwal() {
-        $("#footer").fadeOut("slow");
-        swal("∑XRON", "", "success");
-        $(".QEA").fadeOut("slow");
-        $(".container").remove();
-        $(".link").css("display", "none");
-        setTimeout(function(){
-        font();
-        }, 1000);
+       $("#footer").fadeOut("slow");
+       swal("∑XRON", "", "success");
+       $(".QEA").fadeOut("slow");
+       $(".container").remove();
+       $(".link").css("display", "none");
+       setTimeout(function(){
+       font();
+       }, 1000);
 }
 
 function font(){
